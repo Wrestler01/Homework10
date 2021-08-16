@@ -1,0 +1,35 @@
+.footer {
+    max-width: 550px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__text {
+        max-width: 335px;
+        color: #000000;
+        font-weight: 700;
+        line-height: $line-height;
+        font-family: $project-font;
+        font-size: $font-size, sans-serif;
+    }
+    
+    &__link {
+        max-width: 180px;
+        opacity: 0.7;
+        font-size: $font-size;
+        font-weight: 700;
+        font-family: $project-font, serif;
+        color: #000000;
+        text-transform: uppercase;
+        text-decoration: none;
+
+        &:hover {
+            border-radius: 2px;
+            box-shadow: 2px 2px 4px #333333;
+        }
+    }
+}

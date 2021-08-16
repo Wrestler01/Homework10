@@ -1,0 +1,27 @@
+.header {
+    max-width: 900px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+
+    &__title {
+        width: 550px;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 5px;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: $line-height;
+        color: #000000;
+    }
+
+    &__text {
+        width: 500px;
+        margin: 0;
+        padding: 0;
+        color: #000000;
+        opacity: 0.6;
+        font-size: $font-size;
+        font-family: $project-font, sans-serif;
+    }
+}

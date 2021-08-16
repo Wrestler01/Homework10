@@ -1,0 +1,32 @@
+.container {
+    top: 80px;
+    left: 250px;
+    display: flex;
+    align-items: center;
+    max-width: 1280px;
+    position: relative;
+
+    &__right {
+        display: flex;
+        max-width: 900px;
+        border-radius: 5px;
+        padding: 50px 30px 20px 30px;
+        flex-direction: column;
+        background-color: white;
+        justify-content: space-between;
+    }
+
+    &__line {
+        width: 600px;
+        height: 2px;
+        background-color: #000000;
+    }
+
+    
+
+    &__image {
+        max-width: 380px;
+        height: 465px;
+        border-radius: 5px;
+    }
+}
